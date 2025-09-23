@@ -5,5 +5,3 @@ public class App {
         new AdminDashboard().setVisible(true);
     }
 }
-
-
