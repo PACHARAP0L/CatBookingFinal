@@ -1,3 +1,3 @@
-Name,Email,Role,Password
-Admin,admin@gmail.com,admin,1234
-aaa,pacharaxxxx@gmail.com,user,5678
+Name,Email,Phone,Password,Role
+Admin,admin@gmail.com,1234567890,123,admin
+New User,user2@mail.com,0123456789,1234,user

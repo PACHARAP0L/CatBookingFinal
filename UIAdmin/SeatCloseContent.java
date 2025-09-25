@@ -76,7 +76,7 @@ controls.add(closeTodayBtn);
         JLabel capLbl = new JLabel("Remaining capacity");
         capLbl.setForeground(Color.DARK_GRAY);
 
-        JTextField capField = new JTextField("8");
+        JTextField capField = new JTextField("10");
         capField.setPreferredSize(new Dimension(100, 28));
         capacityFields.put(slotText, capField);
 

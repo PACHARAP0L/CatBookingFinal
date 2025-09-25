@@ -3,6 +3,10 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
  */
 
+import java.awt.Color;
+
+import Core.Domain.AuthStore;
+
 /**
  *
  * @author fn
@@ -99,9 +103,13 @@ public class UserSettingForm extends javax.swing.JFrame {
                 jButton1ActionPerformed(evt);
             }
         });
+        jButton1.addActionListener(e -> {
+            new CelenDerPage().setVisible(true);
+            dispose();
+        });
 
-        jButton2.setBackground(new java.awt.Color(102, 102, 102));
-        jButton2.setForeground(new java.awt.Color(255, 255, 255));
+        jButton2.setBackground(new java.awt.Color(255,255,255));
+        jButton2.setForeground(new java.awt.Color(60,40,20));
         jButton2.setText("Profile");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -109,7 +117,7 @@ public class UserSettingForm extends javax.swing.JFrame {
             }
         });
 
-        jLabel2.setText("Hi Axto");
+        jLabel2.setText("Hi User");
 
         jButton3.setBackground(new java.awt.Color(102, 102, 102));
         jButton3.setForeground(new java.awt.Color(255, 255, 255));
